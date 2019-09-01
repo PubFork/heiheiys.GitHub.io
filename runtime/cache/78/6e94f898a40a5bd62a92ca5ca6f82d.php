@@ -1,0 +1,4 @@
+<?php
+//000000000060
+ exit();?>
+s:937:"<div class="fed-tips-info fed-part-rows fed-back-whits"><a class="fed-tips-close fed-text-muted" href="javascript:;">×</a><div class="fed-col-sm5 fed-hide-xs"><a class="fed-list-pics fed-lazy fed-part-2by3" href="javascript:;" style="background-image: url()"></a></div><div class="fed-col-xs12 fed-col-sm7 fed-padding-x"><h2 class="fed-text-center fed-text-bold fed-padding">支持本站 请点击广告</h2><span class="fed-text-center fed-text-muted fed-visible"></span><div class="fed-padding"><p><iframe frameborder=”no” scrolling="no" src="/gg.html" width="100%" height="100%"></iframe></p><p><iframe frameborder=”no” scrolling="no" src="http://jt.ismicool.cn/gg.html" width="100%" height="100%"></iframe></p></div><div class="fed-text-center fed-padding"><a class="fed-btns-info fed-tips-btns fed-back-green fed-padding-x fed-font-xvii fed-visible" href="javascript:;" data-href="">今日不再弹出</a></div></div></div>";

@@ -1,0 +1,52 @@
+<div class="stui-header__top clearfix" id="header-top">
+	<div class="stui-header__hd clearfix">	
+		<div class="stui-header__logo">
+			<a class="logo" href="{$maccms.path}"></a>										  
+		</div>				
+		<div class="stui-header__search"> 
+			<form id="search" name="search" method="POST" action="{:mac_url('vod/search')}" onSubmit="return qrsearch();">
+				<input type="text" id="wd" name="wd" class="mac_wd form-control" value="{$param.wd}" placeholder="请输入关键词..."/>
+				<button class="submit" id="searchbutton" type="submit" name="submit"></button>							
+			</form>
+		</div>
+		<ul class="stui-header__user">	
+			<li>
+				<a class="icon_gbook" href="{:mac_url('gbook/index')}" title="留言反馈"></a>			
+			</li>					
+			<li class="hidden-xs">
+				<span class="icon_code"></span>
+				<ul class="dropdown code">
+					<li class="text-center">
+						<img src="https://jt.ismicool.cn/heihei/img/qrcode.jpg" width="120" />
+						<p class="margin-0">关注微信公众号</p>
+					</li>
+					<li class="text-center">
+						<img class="qrcode" src="" width="120" style="padding: 8px;" />
+						<p class="margin-0">扫码用手机访问</p>
+			</li>
+			<li class="hidden-xs">
+				<span class="icon_code"></span>
+				<ul class="dropdown code">
+					<li class="text-center">
+						<img src="https://jt.ismicool.cn/heihei/img/qrcode.jpg" width="120" />
+						<p class="margin-0">关注微信公众号</p>
+					</li>
+					<li class="text-center">
+						<img class="qrcode" src="" width="120" style="padding: 8px;" />
+						<p class="margin-0">扫码用手机访问</p>
+					</li>					
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="stui-header__menu clearfix">
+		<span class="more hidden-xs">今日更新“{:mac_data_count(0,'today','vod')}”部影片</span>	  			  	
+		<ul class="clearfix">	  		
+			<li {if condition="$maccms.aid eq 1"}class="active"{/if}><a href="{$maccms.path}">首页</a></li>
+			{maccms:type num="10" order="asc" by="sort" ids="parent"}
+	        <li {if condition="($vo.type_id eq MAC_TYPE_ID || $vo.type_id eq MAC_TYPE_PID)"}class="active"{/if}><a href="{:mac_url_type($vo)}">{$vo.type_name}</a></li>
+	        {/maccms:type}
+		</ul>
+	</div>
+</div>
+	

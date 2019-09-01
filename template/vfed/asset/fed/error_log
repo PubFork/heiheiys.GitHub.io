@@ -1,0 +1,32 @@
+[21-May-2019 15:32:12 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/nugkoolm/public_html/template/vfed/asset/fed/create.php on line 1
+[21-May-2019 15:32:12 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/nugkoolm/public_html/template/vfed/asset/fed/create.php on line 1
+[24-May-2019 09:23:54 UTC] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[24-May-2019 09:23:54 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15193 in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[24-May-2019 09:23:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[24-May-2019 09:23:54 UTC] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[24-May-2019 09:23:54 UTC] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15191 in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[24-May-2019 09:23:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[06-Jun-2019 15:25:52 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php:1
+Stack trace:
+#0 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): AppMysqli->__construct('127.0.0.1', 'nugkoolm_ppxys', 'gufeiyue0.', 'nugkoolm_ppxys', '3306')
+#1 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): database()
+#2 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): O5c44341a('database', Array)
+#3 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/player.php(3): require('/home/nugkoolm/...')
+#4 {main}
+  thrown in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[06-Jun-2019 15:25:52 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php:1
+Stack trace:
+#0 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): AppMysqli->__construct('127.0.0.1', 'nugkoolm_ppxys', 'gufeiyue0.', 'nugkoolm_ppxys', '3306')
+#1 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): database()
+#2 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): O5c44341a('database', Array)
+#3 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/player.php(3): require('/home/nugkoolm/...')
+#4 {main}
+  thrown in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[06-Jun-2019 15:25:52 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php:1
+Stack trace:
+#0 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): AppMysqli->__construct('127.0.0.1', 'nugkoolm_ppxys', 'gufeiyue0.', 'nugkoolm_ppxys', '3306')
+#1 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): database()
+#2 /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php(1): O5c44341a('database', Array)
+#3 {main}
+  thrown in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1
+[07-Jun-2019 17:06:27 UTC] PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'localhost' is not allowed to connect to this MariaDB server in /home/nugkoolm/v.ppppx.top/template/vfed/asset/fed/create.php on line 1

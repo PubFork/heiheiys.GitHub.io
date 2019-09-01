@@ -1,0 +1,3 @@
+视频管理,vod/data
+vfed主题设置,/index.php/label/admin
+vfed采集资源,/addons/collect/cjvfed.php

